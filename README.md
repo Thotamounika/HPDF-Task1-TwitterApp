@@ -22,7 +22,7 @@ You will need an Android device to run your React Native Android app. This can b
 To enable USB debugging on your device, you will first need to enable the "Developer options" menu by going to Settings → About phone and then tapping the Build number row at the bottom seven times. You can then go back to Settings → Developer options to enable "USB debugging".
 
 Clone Repository and Running on device/emulator:
---  git clone https://github.com/Thotamounika/HPDF-Task1-TwitterApp.git
--- cd HPDF-Task1-TwitterApp.git
+--  click on clone or download tab and download the zip folder extract the files and go to that path in command prompt.
+-- cd HPDF-Task1-TwitterApp
 -- npm install (to install project dependencies)
 -- react-native run-android (This will run the app on your connected emulator or development device)
