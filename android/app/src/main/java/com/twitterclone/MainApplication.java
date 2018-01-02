@@ -1,4 +1,4 @@
-package com.awesomenativebase;
+package com.twitterclone;
 
 import android.app.Application;
 

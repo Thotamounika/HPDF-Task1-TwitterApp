@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
-import { Container, Header, Content, List, ListItem, Text,Left,Icon,Body,Right,Thumbnail ,Card,CardItem} from 'native-base';
-export default class MenuSample extends Component{
+import { Container,List, ListItem, Text,Left,Icon,Body,Right,Thumbnail ,Card,CardItem} from 'native-base';
+
+export default class SideBar extends Component{
+
+  
 render(){
     return (
 //This is the content that is rendered inside sidebar
-        <Content style={{backgroundColor:'#ffffff'}}>
+        <Container style={{backgroundColor:'#ffffff'}}>
 
           <List>
                 <ListItem>
@@ -30,7 +33,7 @@ render(){
                       <Icon name="person" style={{color:'gray'}}/>
                     </Left>
                     <Body>
-                      <Text>Profile</Text>
+                      <Text >Profile</Text>
                     </Body>
                   </ListItem>
 
@@ -66,17 +69,18 @@ render(){
                         <Text>Help Center</Text>
                         </ListItem>
                         <ListItem>
+                        
                         <Left>
-                          <Icon name="ios-moon" style={{color:'skyblue'}}/>
+                          <Icon name="ios-moon" style={{color:'#1DA1F2'}}/>
                         </Left>
                         <Body/>
                         <Right>
-                          <Icon name="ios-qr-scanner" style={{color:'skyblue'}}/>
+                          <Icon name="ios-qr-scanner" style={{color:'#1DA1F2'}}/>
                         </Right>
                         </ListItem>
 
           </List>
-        </Content>
+        </Container>
 
     );
   }
