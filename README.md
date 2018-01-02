@@ -1,8 +1,8 @@
 # HPDF-Task1-TwitterApp
-Twitter App created as part of task-1
+Twitter clone App (only frontend) created as part of task-1
 
 
-Used NativeBase to design the following screensfrom the Twitter Android app (with no backend integration)
+Used NativeBase to design the following screens from the Twitter Android app (with no backend integration)
 
 1.Twitter timeline<br />
 2.Twitter profile menu <br />
